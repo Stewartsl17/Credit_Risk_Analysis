@@ -59,7 +59,7 @@ The second classifier type of sampling that we utilized was Easy Ensemble AdaBoo
 
 ![](https://github.com/Stewartsl17/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20AdaBoost%20Classifier.png)
 
-Based on this, we can see that our balanced accuracy is somewhat higher at 93%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 94%. This sampling type dwarfed the rest in terms of accuracy amongst this dataset and our test variables. 
+Based on this, we can see that our balanced accuracy is somewhat higher at 93%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 94%. This sampling type bested the rest in terms of accuracy amongst this dataset and our test variables. 
 
 # Summary 
 
