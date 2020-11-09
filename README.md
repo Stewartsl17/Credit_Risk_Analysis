@@ -2,7 +2,7 @@
 
 # Overview 
 
-In this project, we have utilized a credit card credit dataset from our client, LendingClub, who wants us to utilized several machine learning models in order to predict credit risk. Depending on the peformance of the models, they may be used by LendingClub to aid in future loan lending practices. The different types of sampling/classifier models are as follows: 
+In this project, we have utilized a credit card credit dataset from our client, LendingClub, who wants us to utilize several machine learning models in order to predict credit risk. Depending on the performance of the models, they may be used by LendingClub to aid in future loan lending practices. The different types of sampling/classifier models are as follows: 
 
 1. Naive Random Oversampling
 2. SMOTE Oversampling
@@ -35,7 +35,7 @@ The third type of sampling that we utilized was Cluster Centroids Undersampling.
 
 ![]()
 
-Based on this, we can see that our balanced accuracy is somewhat lower at 54%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 42%. Compared the previous two sampling types, this sampling approach yieled the least in each data category with this dataset. 
+Based on this, we can see that our balanced accuracy is somewhat lower at 54%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 42%. Compared the previous two sampling types, this sampling approach yielded the least in each data category with this dataset. 
 
 4. SMOTEEN (Oversampling/Undersampling)
 
@@ -51,7 +51,7 @@ The first classifier type of sampling that we utilized was Balanced Random Fores
 
 ![]()
 
-Based on this, we can see that our balanced accuracy is somewhat higher at 78%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 87%. This outpaces each of the previous sampling types, but is a step behind the Easy Ensemble AdaBoost Classifier sampling model.
+Based on this, we can see that our balanced accuracy is somewhat higher at 78%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 87%. This outpaces each of the previous sampling types but is a step behind the Easy Ensemble AdaBoost Classifier sampling model.
 
 6. Easy Ensemble AdaBoost Classifier
 
@@ -63,4 +63,4 @@ Based on this, we can see that our balanced accuracy is somewhat higher at 93%. 
 
 # Summary 
 
-Based on the credit risk dataset, most of our machine learning sampling models do not perform well in regards to predicting credit risk. Among the four sampling algorithms, we can see that they all perform about the same as each other. All were very precise (around 99%) but were low in their recall and accuracy variables. The two classifier models stood out in most categories. The Balanced Random Forest classifier outperformed the four algorithms. The Easy Ensemble AdaBoost Classifier performed the best overall recall for high-risk applicants and the highest precision. Even though it does, we have to mention that the F1 score is still very low so this model is much better than the others but more will need to be done to create a better model but it is recommended that this one be currently used. 
+Based on the credit risk dataset, most of our machine learning sampling models do not perform well in regard to predicting credit risk. Among the four sampling algorithms, we can see that they all perform about the same as each other. All were very precise (around 99%) but were low in their recall and accuracy variables. The two classifier models stood out in most categories. The Balanced Random Forest classifier outperformed the four algorithms. The Easy Ensemble AdaBoost Classifier performed the best overall recall for high-risk applicants and the highest precision. Even though it does, we have to mention that the F1 score is still very low so this model is much better than the others. More will need to be done to create a better model, but it is recommended that this one be currently used.
