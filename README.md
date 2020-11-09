@@ -17,7 +17,7 @@ In this project, we have utilized a credit card credit dataset from our client, 
 
 The first type of sampling that we utilized was Naive Random Sampling. We created training variables to test how well this sampling algorithm worked. Below, we have outlined the necessary data points to see how well the approach worked. 
 
-![]()
+![](https://github.com/Stewartsl17/Credit_Risk_Analysis/blob/main/Images/Naive_Random_Sampling.png)
 
 Based on this, we can see that our balanced accuracy for this type is 64%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 62%.
 
@@ -25,7 +25,7 @@ Based on this, we can see that our balanced accuracy for this type is 64%. Furth
 
 The second type of sampling that we utilized was SMOTE Oversampling. We created training variables to test how well this sampling algorithm worked. Below, we have outlined the necessary data points to see how well the approach worked. 
 
-![]()
+![](https://github.com/Stewartsl17/Credit_Risk_Analysis/blob/main/Images/SMOTE_Oversampling.png)
 
 Based on this, we can see that our balanced accuracy for this function is 65%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 69%. This matches our first sampling type, Naive Random Sampling, in balanced accuracy, but the recall for this type yields slightly higher results. 
 
@@ -33,7 +33,7 @@ Based on this, we can see that our balanced accuracy for this function is 65%. F
 
 The third type of sampling that we utilized was Cluster Centroids Undersampling. We created training variables to test how well this sampling algorithm worked. Below, we have outlined the necessary data points to see how well the approach worked. 
 
-![]()
+![](https://github.com/Stewartsl17/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.png)
 
 Based on this, we can see that our balanced accuracy is somewhat lower at 54%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 42%. Compared the previous two sampling types, this sampling approach yielded the least in each data category with this dataset. 
 
@@ -41,7 +41,7 @@ Based on this, we can see that our balanced accuracy is somewhat lower at 54%. F
 
 The fourth type of sampling that we utilized was SMOTEEN (Oversampling/Undersampling). We created training variables to test how well this sampling algorithm worked. Below, we have outlined the necessary data points to see how well the approach worked. 
 
-![]()
+![](https://github.com/Stewartsl17/Credit_Risk_Analysis/blob/main/Images/SMOTEEN.png)
 
 Based on this, we can see that our balanced accuracy is somewhat low at 64%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 42%. This matches the first two sampling types, Naive Random Sampling and SMOTE sampling, but has a low recall/sensitivity like the Cluster Undersampling. 
 
@@ -49,7 +49,7 @@ Based on this, we can see that our balanced accuracy is somewhat low at 64%. Fur
 
 The first classifier type of sampling that we utilized was Balanced Random Forest. We created training variables to test how well this sampling algorithm worked. Below, we have outlined the necessary data points to see how well the approach worked. 
 
-![]()
+![](https://github.com/Stewartsl17/Credit_Risk_Analysis/blob/main/Images/Balanced%20Random%20Forest.png)
 
 Based on this, we can see that our balanced accuracy is somewhat higher at 78%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 87%. This outpaces each of the previous sampling types but is a step behind the Easy Ensemble AdaBoost Classifier sampling model.
 
@@ -57,7 +57,7 @@ Based on this, we can see that our balanced accuracy is somewhat higher at 78%. 
 
 The second classifier type of sampling that we utilized was Easy Ensemble AdaBoost Classifier. We created training variables to test how well this sampling algorithm worked. Below, we have outlined the necessary data points to see how well the approach worked. 
 
-![]()
+![](https://github.com/Stewartsl17/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20AdaBoost%20Classifier.png)
 
 Based on this, we can see that our balanced accuracy is somewhat higher at 93%. Furthermore, we can see that our precision is at 99% and our recall/sensitivity is at 94%. This sampling type dwarfed the rest in terms of accuracy amongst this dataset and our test variables. 
 
